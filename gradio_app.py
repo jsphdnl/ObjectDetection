@@ -86,27 +86,11 @@ class App:
         return img
 
     def get_desc(self):
-        return 'Welcome to my object detection web application. Simply upload an image and let ' \
-            + 'the model do the rest! It will quickly identify and locate objects within the ' \
-            + 'image and classify them into one of the ' \
-            + '[80 classes](https://raw.githubusercontent.com/v-iashin/WebsiteYOLO/master/data/coco.names).\n' \
-            + 'The model is based on [YOLOv3](https://pjreddie.com/darknet/yolo/) and was ' \
-            + 'trained on a massive dataset called [COCO](https://cocodataset.org/), ' \
-            + 'which made it one of the fastest and most accurate object detectors available ' \
-            + 'at the time when I re-implemented it back in 2019. \n' \
-            + 'The web application is hosted on ' \
-            + '[HuggingFace Spaces](https://huggingface.co/spaces/iashin/YOLOv3), ' \
-            + 'which generously provides the necessary computing power. ' \
-            # + 'If you\'re curious ' \
-            # + 'about the technical details behind this project, feel free to check out my ' \
-            # + '[post](https://iashin.ai/how_did_you_build_your_detector.html) on how I built it.'
+        return 'Object Detection ' 
+    
 
     def get_article(self):
-        return 'More info:\n' \
-            + '* [Back-end code](https://github.com/v-iashin/WebsiteYOLO)\n' \
-            + '* [HuggingFace Spaces App](https://huggingface.co/spaces/iashin/YOLOv3)\n' \
-            + '* [Submit an issue](https://github.com/v-iashin/WebsiteYOLO/issues)\n' \
-            + '* [Building it without Gradio](https://iashin.ai/how_did_you_build_your_detector)'
+        return 'More info:\n' 
 
 
 if __name__ == '__main__':
