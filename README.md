@@ -6,6 +6,8 @@ This repository stores the back-end for the Flask application, which serves requ
 
 # Setting up the Environment
 ```
+bash ./weights/download_weights_yolov3.sh
+
 pip install -r gradio_requirements.txt
 python ./gradio_app.py
 ```
