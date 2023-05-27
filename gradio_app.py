@@ -52,7 +52,7 @@ class App:
             ],
             examples=self.examples,
             cache_examples=False,
-            title='YOLO v3 Object Detector',
+            title='Object Detector',
             description=self.get_desc(),
             article=self.get_article(),
             allow_flagging='never',
